@@ -5,9 +5,26 @@ Hooks.once("init", async function () {
 Hooks.once("ready", async function () {
   console.log("UESRPG Character Creator | Ready!");
 
-  // Render the character creation form
-  renderCharacterCreationForm();
+  // Add a button to the sidebar
+  addSidebarButton();
 });
+
+function addSidebarButton() {
+  // Create a button in the sidebar
+  const button = $(`
+    <button id="uesrpg-character-creator-button">
+      <i class="fas fa-user-plus"></i> Create Character
+    </button>
+  `);
+
+  // Add the button to the sidebar
+  $("#sidebar-tabs").append(button);
+
+  // Add a click event to open the character creation form
+  button.click(() => {
+    renderCharacterCreationForm();
+  });
+}
 
 function renderCharacterCreationForm() {
   const html = await renderTemplate("modules/uesrpg-character-creator/templates/character-creation.html");
