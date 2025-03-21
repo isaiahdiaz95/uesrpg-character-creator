@@ -14,3 +14,17 @@
 .step.active {
   display: block;
 }
+#uesrpg-character-creator-button {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  background: #4b4b4b;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#uesrpg-character-creator-button:hover {
+  background: #666;
+}
