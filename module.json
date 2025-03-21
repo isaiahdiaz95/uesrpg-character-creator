@@ -9,6 +9,6 @@
   "styles": ["styles/styles.css"],
   "packs": [],
   "url": "https://github.com/isaiahdiaz95/uesrpg-character-creator.git",
-  "manifest": "https://raw.githubusercontent.com/isaiahdiaz95/uesrpg-character-creator/refs/heads/main/module.json?token=GHSAT0AAAAAADA4HONSVIXAQCODF7FHV7DQZ646LCQ",
+  "manifest": "https://raw.githubusercontent.com/isaiahdiaz95/uesrpg-character-creator/refs/heads/main/module.json?",
   "download": "https://github.com/isaiahdiaz95/uesrpg-character-creator/archive/refs/heads/main.zip"
 }
